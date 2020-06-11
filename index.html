@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="stylesheets/mobile.css"
+      media="handheld, only screen and (max-device-width:640px)"
+    />
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
 
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"
+    ></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
+        $("#main_content").headsmart();
+      });
     </script>
+    <style>
+      div.shell > header {
+        margin: 0 auto;
+      }
+      div.shell {
+        width: 850px;
+      }
+      span.banner-fix {
+        width: 850px;
+      }
+      section#main_content {
+        padding: 0;
+      }
+      section#main_content > img {
+        width: 100%;
+        max-width: none;
+      }
+    </style>
     <title>Daniel Lawrence的博客 - Github.io by danLawrence</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/danLawrence">View on GitHub</a>
+    <a id="forkme_banner" href="https://github.com/danLawrence"
+      >View on GitHub</a
+    >
     <div class="shell">
-
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
@@ -36,35 +62,28 @@
       </header>
 
       <div id="no-downloads">
-        <span class="inner">
-        </span>
+        <span class="inner"> </span>
       </div>
-
 
       <span class="banner-fix"></span>
 
-
       <section id="main_content">
-        <h1>
-<a id="danlawrencegithubio" class="anchor" href="#danlawrencegithubio" aria-hidden="true"><span class="octicon octicon-link"></span></a>danLawrence.github.io</h1>
-
-<p>Daniel Lawrence的博客 hope you will enjoy it!</p>
+        <img src="./images/skillTree.png" />
       </section>
 
       <footer>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/danLawrence">danLawrence</a> can be found on <a href="https://github.com/danLawrence">GitHub</a></p>
+            <p>
+              Projects by
+              <a href="https://github.com/danLawrence">danLawrence</a> can be
+              found on <a href="https://github.com/danLawrence">GitHub</a>
+            </p>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
       </footer>
-
     </div>
-
-    
   </body>
 </html>
